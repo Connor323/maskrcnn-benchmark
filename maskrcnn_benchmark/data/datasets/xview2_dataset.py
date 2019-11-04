@@ -7,7 +7,7 @@
 from torch.utils.data.dataset import Dataset
 
 class xView2Dataset(Dataset):
-    def __init__(self, ann_file, root, isTrain=True):
+    def __init__(self, root, isTrain=True):
         self.root = root
         self.load_size = (286, 286)
         self.crop_size = (256, 256)
