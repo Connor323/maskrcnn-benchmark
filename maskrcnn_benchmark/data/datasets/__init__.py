@@ -5,6 +5,7 @@ from .voc import PascalVOCDataset
 from .concat_dataset import ConcatDataset
 from .abstract import AbstractDataset
 from .cityscapes import CityScapesDataset
+from .xview2_dataset import xView2Dataset
 
 __all__ = [
     "COCODataset",
@@ -12,4 +13,5 @@ __all__ = [
     "PascalVOCDataset",
     "AbstractDataset",
     "CityScapesDataset",
+    "xView2Dataset", 
 ]
